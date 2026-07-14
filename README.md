@@ -16,6 +16,10 @@ The easy version of "AI for nonprofits" is a thin wrapper around an agreeable mo
 
 Every project is free, private, and runs in the browser or fully offline. Deployable by a nonprofit at zero cost per month, on hardware it already owns.
 
+#### Also mapping
+
+**[Keystone](https://github.com/Skeeter-spec/keystone)** · a living atlas of the world's industrial value chains, built to find the chokepoints. A research project, separate from the client facing nonprofit tools above. Educational, not investment advice.
+
 #### Background
 
 An engineering background in high precision manufacturing and materials, now on a Master Electrician track. That is where the "verify it in code, not vibes" instinct comes from, and the part a no code consultant cannot replicate.
