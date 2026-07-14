@@ -12,7 +12,7 @@ The easy version of "AI for nonprofits" is a thin wrapper around an agreeable mo
 |---------|----------------|
 | **[GrantMatch](https://skeeter-spec.github.io/edge-ai-portfolio/grantmatch/build/)** | Reads a funder's RFP into a checklist of every requirement, then refuses to mark a draft compliant unless it can quote your own words back. Catches the model fabricating coverage, live. |
 | **[ColdWatch](https://skeeter-spec.github.io/edge-ai-portfolio/coldwatch/build/)** | A roughly $21 edge sensor that predicts a food bank fridge failure hours early, ignores door openings so the alarm stays trusted, and alerts fully offline. Zero AI at runtime. |
-| **[ReClaim Vision](https://skeeter-spec.github.io/edge-ai-portfolio/reclaim-vision/build/)** | Grades donated computers for refurbishment consistently against a real standard. The model observes, a rubric decides, and no cracked screen laptop ever ships to a family. |
+| **[ReClaim Vision](https://skeeter-spec.github.io/edge-ai-portfolio/reclaim-vision/build/)** | Grades donated computers for refurbishment consistently against a real standard. The model observes, a rubric decides, and no cracked screen laptop ever ships to a family. Currently in QA before general release. |
 
 Every project is free, private, and runs in the browser or fully offline. Deployable by a nonprofit at zero cost per month, on hardware it already owns.
 
