@@ -35,8 +35,13 @@ PVD, CVD, CMP and FSS certified. Trained junior techs.
 
 - **Safety.** LOTO trained and recertified every six months across those four years, in a live
   production fab. NFPA 70E training, ongoing, through a U.S. DOL registered electrical apprenticeship.
-- **Power gear.** Hands on across the chain: 480V+ switchgear, MV gear and protective relays, ATS,
-  UPS, generators, and NETA style acceptance testing. Acquired one install at a time.
+- **Power gear.** Hands on across the chain, acquired one install at a time: breaker populated power
+  distribution cabinets delivering over 20 kW to an entire tool, plasma process and peripheral
+  sensors both. The high power supplies, RF generators, and UPS banks downstream of them. Protective
+  relays I set, tested, replaced, and chased nuisance trips on. Ran the power and signal cable that
+  ties all of it together, with the interference discipline that goes with it: power kept away from
+  signal, and loop area kept small. Verified components against their published norm values, worked
+  out why they failed, and recommended the fix.
 - **Controls and comms.** Migrated tool host communications off legacy SECS-I serial onto HSMS over
   TCP/IP, across many tools, each one bringing its own legacy quirks. Chased SECS/GEM failures that
   were corrupting tool behavior analytics down to the board. RS-232, RS-485 and Modbus TCP across
