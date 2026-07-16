@@ -33,15 +33,26 @@ Four years of field service on production critical semiconductor equipment at Ap
 Better than 95% uptime, 15 to 25% downtime reduction, average service response under two hours.
 PVD, CVD, CMP and FSS certified. Trained junior techs.
 
-- **Safety.** LOTO certified and recertified every six months across those four years, in a live
+- **Safety.** LOTO trained and recertified every six months across those four years, in a live
   production fab. NFPA 70E training, ongoing, through a U.S. DOL registered electrical apprenticeship.
 - **Power gear.** Hands on across the chain: 480V+ switchgear, MV gear and protective relays, ATS,
   UPS, generators, and NETA style acceptance testing. Acquired one install at a time.
-- **Controls and comms.** Proprietary PLC configuration on tool specific control software. Install
-  level networking: bringing every new tool online with remote engineering and IT.
-- **The method that actually travels.** On equipment nobody memorizes, you derive it from the
-  documentation, you engage the experts who know it, and you verify before you trust it. That is what
-  I was paid for, and it is what the toolbox above is made of.
+- **Controls and comms.** Migrated tool host communications off legacy SECS-I serial onto HSMS over
+  TCP/IP, across many tools, each one bringing its own legacy quirks. Chased SECS/GEM failures that
+  were corrupting tool behavior analytics down to the board. RS-232, RS-485 and Modbus TCP across
+  tool and facilities systems: vacuum, thermal, gas, RF, and plant equipment. Proprietary PLC
+  configuration on tool specific control software. Install level networking: bringing every new tool
+  online with remote engineering and IT.
+- **Before the fab, two years in microelectronics prototype development.** Debugged and characterized
+  custom electronics at board and component level: probes, scope, function generator, LCR meter,
+  microscope. Built custom data acquisition fixtures to pull current, voltage, RF and accelerometer
+  data off a board, and turned the results into fingerprints that tell a hardware fault apart from a
+  software configuration fault. I brought that lens into the fab, which is why a tool that would not
+  talk got its comm board characterized instead of swapped.
+- **The method that actually travels.** A problem is a story of the device's state, and every
+  deviation from norm has a hard reason backed up by data. On equipment nobody memorizes, you derive
+  it from the documentation, you engage the experts who know it, and you verify before you trust it.
+  That is what I was paid for, and it is what the toolbox above is made of.
 
 A fab runs 24/7 and production critical, on the same discipline a data center floor runs on.
 
