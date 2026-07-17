@@ -36,18 +36,22 @@ PVD, CVD, CMP and FSS certified. Trained junior techs.
 - **Safety.** LOTO trained and recertified every six months across those four years, in a live
   production fab. NFPA 70E training, ongoing, through a U.S. DOL registered electrical apprenticeship.
 - **Power gear.** Hands on across the chain, acquired one install at a time: breaker populated power
-  distribution cabinets delivering over 20 kW to an entire tool, plasma process and peripheral
-  sensors both. The high power supplies, RF generators, and UPS banks downstream of them. Protective
+  distribution cabinets feeding an entire tool, plasma process and peripheral sensors both, with the
+  plasma supplies run as master and slave pairs into a single chamber for 40 kW to the plasma. The
+  high power supplies, RF generators, and UPS banks downstream of them. Protective
   relays I set, tested, replaced, and chased nuisance trips on. Ran the power and signal cable that
   ties all of it together, with the interference discipline that goes with it: power kept away from
   signal, and loop area kept small. Verified components against their published norm values, worked
   out why they failed, and recommended the fix.
 - **Controls and comms.** Migrated tool host communications off legacy SECS-I serial onto HSMS over
   TCP/IP, across many tools, each one bringing its own legacy quirks. Chased SECS/GEM failures that
-  were corrupting tool behavior analytics down to the board. RS-232, RS-485 and Modbus TCP across
-  tool and facilities systems: vacuum, thermal, gas, RF, and plant equipment. Proprietary PLC
-  configuration on tool specific control software. Install level networking: bringing every new tool
-  online with remote engineering and IT.
+  were corrupting tool behavior analytics down to the board. RS-232 and Modbus TCP across tool and
+  facilities systems: vacuum, thermal, gas, RF, and plant equipment. Worked the fab's facility
+  supervisory layer, the monitoring PC that manages the tool computers, the peripheral sensors and
+  the control valves. The vendor shipped that box closed, so I got it to log sensor voltage and
+  current and hand the readings to a server over Ethernet, which is how the experiment underneath
+  got its data. Install level networking: bringing every new tool online with remote engineering
+  and IT.
 - **Before the fab, two years in microelectronics prototype development.** Debugged and characterized
   custom electronics at board and component level: probes, scope, function generator, LCR meter,
   microscope. Built custom data acquisition fixtures to pull current, voltage, RF and accelerometer
