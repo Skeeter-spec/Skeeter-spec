@@ -2,10 +2,10 @@
 
 **Field service engineer who builds the tools.**
 
-Four years keeping production critical semiconductor equipment running in a live fab, now building the
-tools I wanted on the floor and checking them against the published literature instead of against a
-good feeling. Almost nobody in power service writes software, and almost nobody who writes software
-has racked a breaker. I work in that overlap.
+Four years keeping production critical semiconductor equipment running in a live fab. I build the
+custom systems that turn analog signal into digital record, with a receipt for every fault. That is
+the overlap I work in: now building the tools I wanted on the floor, and checking them against the
+published literature instead of against a good feeling.
 
 #### Power Service Toolbox
 
@@ -29,7 +29,7 @@ other. `./tools/gate.sh` re-proves all of it in one command.
 
 #### Background
 
-Four years of field service on production critical semiconductor equipment at Applied Materials.
+Four years of field service on production critical semiconductor equipment in a live fab.
 Better than 95% uptime, 15 to 25% downtime reduction, average service response under two hours.
 PVD, CVD, CMP and FSS certified. Trained junior techs.
 
