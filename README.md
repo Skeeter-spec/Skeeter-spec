@@ -77,6 +77,7 @@ deterministic code you can audit makes the decision.
 | **[GrantMatch](https://skeeter-spec.github.io/edge-ai-portfolio/grantmatch/build/)** | Reads a funder's RFP into a checklist of every requirement, then refuses to mark a draft compliant unless it can quote your own words back. Catches the model fabricating coverage, live. |
 | **[ColdWatch](https://skeeter-spec.github.io/edge-ai-portfolio/coldwatch/build/)** | A roughly $21 edge sensor that predicts a food bank fridge failure hours early, ignores door openings so the alarm stays trusted, and alerts fully offline. Zero AI at runtime. |
 | **[ReClaim Vision](https://skeeter-spec.github.io/edge-ai-portfolio/reclaim-vision/build/)** | Grades donated computers against a real refurbishment standard. The model observes, a rubric decides. Currently in QA. |
+| **[BenefitsBridge](https://skeeter-spec.github.io/edge-ai-portfolio/benefitsbridge/build/)** | Answers SNAP and energy assistance questions only from official rule text it retrieved, quoting the rule every time. Ask about a program it has not loaded and it refuses and routes you to a caseworker. English and Spanish. |
 
 **[Keystone](https://github.com/Skeeter-spec/keystone)** · a living atlas of the world's industrial
 value chains, built to find the chokepoints. Educational, not investment advice.
