@@ -15,12 +15,25 @@ Open tools for data center power service: switchgear, protective relays, ATS, me
 
 **The rule: nothing ships until it reproduces a published worked example and the number matches the book.**
 
+**Eight of the ten tools are live and clickable**, each checked against a published worked example
+before it shipped. Here is the one that shows the method in full:
+
 | Live | What it proves |
 |---|---|
 | **[Power chain one line explorer](https://skeeter-spec.github.io/power-service-toolbox/projects/01-power-chain/build/index.html)** | Five published UPS configurations, utility to rack. Click any component to take it out of service and watch what goes dark. Every assertion quotes the source paper's own words. It refuses to print a tier, on purpose: a tier is awarded against a standard I have not read, and a confident wrong answer is exactly what this repo exists to avoid. |
 
-Nine more in the same discipline: coordination curves, ATS sequence, relay bench, Modbus metering,
-ladder logic, switching orders and LOTO planning, NETA test plans, commissioning scripts.
+The other seven, same rule:
+
+- **[TCC coordination studio](https://skeeter-spec.github.io/power-service-toolbox/projects/02-tcc-coordination/build/index.html)** reproduces all 210 trip times a relay manual publishes, and prints no coordination verdict because its source says "usually".
+- **[ATS sequence simulator](https://skeeter-spec.github.io/power-service-toolbox/projects/03-ats-sequence/build/index.html)** runs a named vendor's own transfer timers, and has no vendor neutral mode because ASCO and Russelectric disagree on the numbers by 6x.
+- **[Relay bench](https://skeeter-spec.github.io/power-service-toolbox/projects/04-relay-bench/build/index.html)** puts seven ANSI protective elements on the bench, with the overcurrent element running live on the coordination studio's own verified engine rather than a copy of it.
+- **[Modbus frame codec](https://skeeter-spec.github.io/power-service-toolbox/projects/05-modbus-meter/build/index.html)** reproduces the specification's published hex frames byte for byte, and refuses to decode a value wider than one register because the spec defines no such type.
+- **[Ladder logic interpreter](https://skeeter-spec.github.io/power-service-toolbox/projects/06-ladder-logic/build/index.html)** reproduces a GE latch truth table row for row and evaluates a close permissive over all 32 inputs.
+- **[Clearance limits planner](https://skeeter-spec.github.io/power-service-toolbox/projects/07-switching-order/build/index.html)** reproduces three clearance answers the Bonneville Power Administration publishes for its own worked examples, from figures traced by hand.
+- **[Three phase sandbox](https://skeeter-spec.github.io/power-service-toolbox/projects/10-three-phase/build/index.html)** works line against phase, per unit, and symmetrical fault current, each reproduced from a published example to the book's own precision.
+
+Two remain unbuilt, a NETA acceptance checklist generator and a commissioning script runner, both
+waiting on a free reproducible example rather than shipped on a guess.
 
 That gate is not decoration, and it cost me things. Mutation testing my own test suite (breaking the
 code on purpose to prove the tests could actually fail) showed one of my features was dead code, so I
