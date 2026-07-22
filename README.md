@@ -43,8 +43,7 @@ other. `./tools/gate.sh` re-proves all of it in one command.
 #### Background
 
 Four years of field service on production critical semiconductor equipment in a live fab.
-Better than 95% uptime, 15 to 25% downtime reduction, average service response under two hours.
-PVD, CVD, CMP and FSS certified. Trained junior techs.
+PVD, CVD, CMP and FSS certified, on Endura 150mm and 200mm. Trained junior techs.
 
 - **Safety.** LOTO trained and recertified every six months across those four years, in a live
   production fab. NFPA 70E training, ongoing, through a U.S. DOL registered electrical apprenticeship.
